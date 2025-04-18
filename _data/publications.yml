@@ -18,8 +18,8 @@
   github: https://github.com/Hyun1A/CPE
   image: cpe.jpg
   authors:
-    - bhlee
-    - sjlim
+    - bhlee*
+    - sjlim*
     - sglee
     - dukang
     - sychun
@@ -53,8 +53,8 @@
   pdf: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293338
   image: parallel.jpg
   authors:
-    - hschoi
-    - bhlee
+    - hschoi*
+    - bhlee*
     - sychun
     - jhlee
 
@@ -66,8 +66,8 @@
   github: https://github.com/Hyun1A/HLE
   image: hle.jpg
   authors:
-    - bhlee
-    - ocjeong
+    - bhlee*
+    - ocjeong*
     - jhchoi
     - sychun
 
