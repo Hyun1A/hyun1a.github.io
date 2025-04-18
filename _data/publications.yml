@@ -4,7 +4,7 @@
   project_page: https://hyun1a.github.io/gloce.io/
   pdf: https://arxiv.org/pdf/2503.12356
   github: https://github.com/Hyun1A/GLoCE
-  image: cpe.jpg
+  image: gloce.jpg
   authors:
     - bhlee
     - sjlim
@@ -28,7 +28,7 @@
   title: "Continual Test-Time Adaptation for Robust Remote Photoplethysmography Estimation"
   venue: IEEE Access, 2025
   pdf: https://ieeexplore.ieee.org/document/10938539
-  image: cpe.jpg
+  image: tta.jpg
   authors:
     - hwlee
     - harrylee
@@ -41,7 +41,7 @@
   project_page: https://hyun1a.github.io/cpe.io
   pdf: https://arxiv.org/pdf/2312.13027
   github: https://github.com/Hyun1A/DPCL
-  image: cpe.jpg
+  image: dpcl.jpg
   authors:
     - bhlee
     - sjlim
