@@ -127,10 +127,10 @@ layout: null
 
               {%- assign is_cofirst = false -%}
               {%- if author_id contains '*' -%}
-                  {%- assign author_key = author_id | remove: '*' -%}
+                  {%- assign author_id = author_id | remove: '*' -%}
                   {%- assign is_cofirst = true -%}
               {%- else -%}
-                  {%- assign author_key = author_id -%}
+                  {%- assign author_id = author_id -%}
               {%- endif -%}
               
               {% assign author = site.data.authors[author_id] %}
