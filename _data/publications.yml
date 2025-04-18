@@ -24,26 +24,23 @@
     - dukang
     - sychun
 
-- id: cpe
-  title: "Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate"
-  venue: ICLR, 2025
-  project_page: https://hyun1a.github.io/cpe.io
-  pdf: https://openreview.net/pdf?id=ZRDhBwKs7l
-  github: https://github.com/Hyun1A/CPE
+- id: tta
+  title: "Continual Test-Time Adaptation for Robust Remote Photoplethysmography Estimation"
+  venue: IEEE Access, 2025
+  pdf: https://ieeexplore.ieee.org/document/10938539
   image: cpe.jpg
   authors:
+    - hwlee
+    - harrylee
     - bhlee
-    - sjlim
-    - sglee
-    - dukang
     - sychun
 
-- id: cpe
-  title: "Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate"
-  venue: ICLR, 2025
+- id: dcpl
+  title: "Doubly perturbed task free continual learning"
+  venue: AAAI(Oral), 2024
   project_page: https://hyun1a.github.io/cpe.io
-  pdf: https://openreview.net/pdf?id=ZRDhBwKs7l
-  github: https://github.com/Hyun1A/CPE
+  pdf: https://arxiv.org/pdf/2312.13027
+  github: https://github.com/Hyun1A/DPCL
   image: cpe.jpg
   authors:
     - bhlee
