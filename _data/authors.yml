@@ -4,13 +4,6 @@ bhlee:
   website: https://hyun1a.github.io/
   is_me: true
 
-bhlee_1:
-  first_name: Byung Hyun
-  last_name: Lee*
-  website: https://hyun1a.github.io/
-  is_me: true
-
-
 sychun:
   first_name: Se Young
   last_name: Chun
@@ -18,7 +11,7 @@ sychun:
 
 sjlim:
   first_name: Sungjin
-  last_name: Lim**
+  last_name: Lim
 
 ocjeong:
   first_name: Okchul
