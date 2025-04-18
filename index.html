@@ -142,9 +142,9 @@ layout: null
                   {% else %}
                     <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
                   }}</a>
+                  {% endif %}
                   {% if is_cofirst %}<sup>*</sup>{% endif %}
                   {% unless forloop.last %},{% endunless %}
-                  {% endif %}
                 </span>
               {% endfor %}
 
