@@ -9,6 +9,42 @@ sychun:
   last_name: Chun
   website: https://icl.snu.ac.kr/pi
 
+sjlim:
+  first_name: Sungjin
+  last_name: Lim
+
+ocjeong:
+  first_name: Okchul
+  last_name: Jung
+
+hschoi:
+  first_name: Hyeonseong
+  last_name: Choi
+
+sglee:
+  first_name: Seunggyu
+  last_name: Lee
+
 dukang:
   first_name: Dong Un
   last_name: Kang
+
+harrylee:
+  first_name: Haechang
+  last_name: Lee
+
+hwlee:
+  first_name: Hyunwoo
+  last_name: Lee
+
+mhoh:
+  first_name: Min-hwan
+  last_name: Oh
+
+jhlee:
+  first_name: Jaehwan
+  last_name: Lee
+
+dwpark:
+  first_name: Dongwon
+  last_name: Park
