@@ -1,9 +1,14 @@
-keunhong:
+bhlee:
   first_name: Byung Hyun
   last_name: Lee
   website: https://hyun1a.github.io/
   is_me: true
+
 sychun:
   first_name: Se Young
   last_name: Chun
   website: https://icl.snu.ac.kr/pi
+
+dukang:
+  first_name: Dong Un
+  last_name: Kang
