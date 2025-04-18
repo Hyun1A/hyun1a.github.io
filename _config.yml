@@ -18,23 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Keunhong Park
-name: Keunhong Park
+title: Byung Hyun Lee
+name: Byung Hyun Lee
 position: Research Scientist 
-email: dp9jalxhq@mozmail.com
+email: ldlqudgus756@snu.ac.kr
 description: >-
-  I am a researcher in 3D computer vision and generative AI. I currently co-lead the development of spatial intelligence at [World Labs](https://www.worldlabs.ai/blog).
-  I was previously a research scientist at [Google](https://ai.google/research/) where I built technology to [generate 3D assets](https://blog.google/products/shopping/search-on-2022-shopping/) for products on Google Search.
-
-  I received my Ph.D from the [University of Washington](https://grail.cs.washington.edu/) in 2021 where I was advised by
-  [Ali Farhadi](https://homes.cs.washington.edu/~ali/) and
-  [Steve Seitz](https://homes.cs.washington.edu/~seitz/).
+  I am currently a Ph.D. candidate at the [Intelligent Computational imaging Lab](https://icl.snu.ac.kr/) (Prof. [Se Young Chun](https://icl.snu.ac.kr/pi)) 
+  in the [Department of Electrical and Computer Engineering](https://ece.snu.ac.kr/en) at [Seoul National University](https://en.snu.ac.kr/).
+  I earned my B.S. degree in electrical engineering (EE) from [Ulsan National Institute of Science and Technology (UNIST)](https://www.unist.ac.kr/).
+  My research focuses on forgetting in neural networks — an essential challenge to address for continual learning and machine unlearning in foundation models.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://keunhong.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: KeunhongP
-github_username: keunhong
-google_scholar: HVZb-5oAAAAJ
-google_analytics: G-MFWSBLRKG0
+# url: "https://keunhong.com" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: KeunhongP
+# github_username: keunhong
+# google_scholar: HVZb-5oAAAAJ
+# google_analytics: G-MFWSBLRKG0
 
 # Build settings
 theme: minima
