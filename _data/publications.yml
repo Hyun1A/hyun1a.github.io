@@ -85,7 +85,7 @@
   title: "Empirically Accelerating Scaled Gradient Projection Using Deep Neural Network for Inverse Problems in Image Processing"
   venue: ICASSP, 2021
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9415023
-  image: accsgp.jpg
+  image: accsgp.png
   authors:
     - bhlee
     - sychun
