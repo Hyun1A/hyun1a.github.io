@@ -35,7 +35,7 @@
     - bhlee
     - sychun
 
-- id: dcpl
+- id: dpcl
   title: "Doubly perturbed task free continual learning"
   venue: AAAI (Oral), 2024
   project_page: https://hyun1a.github.io/cpe.io
@@ -44,7 +44,48 @@
   image: dpcl.jpg
   authors:
     - bhlee
-    - sjlim
-    - sglee
-    - dukang
+    - mhoh
+    - sychun
+
+- id: parallel
+  title: "Towards accelerating model parallelism in distributed deep learning systems"
+  venue: PLOS One, 2024
+  pdf: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293338
+  image: parallel.jpg
+  authors:
+    - hschoi
+    - bhlee
+    - sychun
+    - jhlee
+
+- id: hle
+  title: "Online Continual Learning on Hierarchical Label Expansion"
+  venue: ICCV, 2023
+  project_page: https://jokc28.github.io/okchul.github.io/
+  pdf: https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Online_Continual_Learning_on_Hierarchical_Label_Expansion_ICCV_2023_paper.pdf
+  github: https://github.com/Hyun1A/HLE
+  image: hle.jpg
+  authors:
+    - bhlee
+    - ocjeong
+    - jhchoi
+    - sychun
+
+- id: allinone
+  title: "All-in-one Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations"
+  venue: CVPR, 2023
+  pdf: https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Online_Continual_Learning_on_Hierarchical_Label_Expansion_ICCV_2023_paper.pdf
+  image: allinone.jpg
+  authors:
+    - dwpark
+    - bhlee
+    - sychun
+
+- id: accsgp
+  title: "Empirically Accelerating Scaled Gradient Projection Using Deep Neural Network for Inverse Problems in Image Processing"
+  venue: ICASSP, 2021
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9415023
+  image: accsgp.jpg
+  authors:
+    - bhlee
     - sychun
