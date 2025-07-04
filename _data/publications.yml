@@ -53,7 +53,7 @@
 - id: dpcl
   title: "Doubly perturbed task free continual learning"
   venue: AAAI (Oral), 2024
-  project_page: https://hyun1a.github.io/cpe.io
+  project_page: https://hyun1a.github.io/dpcl.io/
   pdf: https://arxiv.org/pdf/2312.13027
   github: https://github.com/Hyun1A/DPCL
   image: dpcl.jpg
