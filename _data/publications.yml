@@ -1,3 +1,18 @@
+- id: comel
+  title: "Continual Multiple Instance Learning with Enhanced Localization for Histopathological Whole Slide Image Analysis"
+  venue: ICCV, 2025
+  project_page: https://hyun1a.github.io/comel.io/
+  pdf: https://arxiv.org/pdf/2507.02395
+  github: https://github.com/Hyun1A/CoMEL
+  image: comel_thumbnail.png
+  authors:
+    - bhlee
+    - wgjeong
+    - wjhan
+    - kblee
+    - sychun
+    
+
 - id: gloce
   title: "Localized Concept Erasure for Text-to-Image Diffusion Models Using Training-Free Gated Low-Rank Adaptation"
   venue: CVPR, 2025
