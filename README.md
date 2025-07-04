@@ -2,7 +2,7 @@
 
 Website template from [Keunhong Park](https://keunhong.com/).
 
-Last updated Apr 2025.
+Last updated Jul 2025.
 
 
 # License
