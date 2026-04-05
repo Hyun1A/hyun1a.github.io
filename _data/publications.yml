@@ -1,3 +1,18 @@
+- id: etc
+  title: "Erasing Thousands of Concepts: Towards Scalable and Practical Concept Erasure for Text-to-Image Diffusion Models"
+  venue: CVPR, 2026
+  project_page: https://hyun1a.github.io/etc.io/
+  pdf: https://TBD
+  github: https://github.com/Hyun1A/EraseAtScale
+  image: etc_thumbnail.png
+  authors:
+    - bhlee*
+    - hgseo*
+    - jhcho
+    - sjlim
+    - sychun
+    
+
 - id: comel
   title: "Continual Multiple Instance Learning with Enhanced Localization for Histopathological Whole Slide Image Analysis"
   venue: ICCV, 2025
