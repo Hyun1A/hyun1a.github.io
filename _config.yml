@@ -23,10 +23,10 @@ name: Byung Hyun Lee
 position: Research Scientist 
 email: ldlqudgus756@snu.ac.kr
 description: >-
-  I am currently a third-year Ph.D. candidate at the [Intelligent Computational imaging Lab](https://icl.snu.ac.kr/) (Prof. [Se Young Chun](https://icl.snu.ac.kr/pi)) 
+  I am currently a fourth-year Ph.D. candidate at the [Intelligent Computational imaging Lab](https://icl.snu.ac.kr/) (Prof. [Se Young Chun](https://icl.snu.ac.kr/pi)) 
   in the [Department of Electrical and Computer Engineering](https://ece.snu.ac.kr/en) at [Seoul National University](https://en.snu.ac.kr/).
   I earned my B.S. degree in electrical engineering (EE) from [Ulsan National Institute of Science and Technology (UNIST)](https://www.unist.ac.kr/).
-  My research focuses on forgetting in neural networks — an essential challenge to address for continual learning and machine unlearning in foundation models.
+  My research focuses on knowledge update and forgetting in foundation models including diffusion models and MLLMs.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://keunhong.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: KeunhongP
