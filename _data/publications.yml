@@ -1,8 +1,8 @@
 - id: etc
   title: "Erasing Thousands of Concepts: Towards Scalable and Practical Concept Erasure for Text-to-Image Diffusion Models"
   venue: CVPR, 2026
-  project_page: https://hyun1a.github.io/etc.io/
-  pdf: https://arxiv.org
+  project_page: https://seohoiki3215.github.io/ETC_project_page/
+  pdf: https://arxiv.org/abs/2604.16481
   github: https://github.com/Hyun1A/EraseAtScale
   image: etc_thumbnail.png
   authors:
