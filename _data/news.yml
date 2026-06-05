@@ -15,22 +15,30 @@
   description: >-
     Contributed to **HyperCLOVA X 8B Omni** and **HyperCLOVA X 32B Think** as part of NAVER Cloud's national AI foundation-model project.
 
+- date: Nov 2025
+  description: >-
+    Selected as a **Qualcomm Innovation Fellowship Korea** finalist. 🏆
+
 - date: Oct 2025
   description: >-
     Joined **NAVER Cloud** as a visiting researcher on Korea's national AI foundation-model project. ✈️
 
-- date: Jun 2025
+- date: Aug 2025
+  description: >-
+    Won **2nd place** (team lead) in the MICCAI Pan-Asia gigapixel-WSI report-generation challenge. 🥇
+
+- date: Aug 2025
+  description: >-
+    Received the **Yulchon AI Star Scholarship** (Youlchon Foundation & SNU AI Institute).
+
+- date: Jul 2025
   description: >-
     [_CoMEL_](https://hyun1a.github.io/comel.io/) (continual learning for histopathology WSI analysis) has been accepted to **ICCV 2025**. 🎉
 
-- date: 2025
+- date: Mar 2025
   description: >-
-    Selected as a **Qualcomm Innovation Fellowship Korea** finalist 🏆, and won **2nd place** (team lead) in the MICCAI Pan-Asia gigapixel-WSI report-generation challenge. 🥇
+    [_GLoCE_](https://hyun1a.github.io/gloce.io/) (training-free localized concept erasure) has been accepted to **CVPR 2025**. 🎉
 
 - date: Feb 2025
   description: >-
-    [_CPE_](https://hyun1a.github.io/cpe.io) (ICLR 2025) and [_GLoCE_](https://hyun1a.github.io/gloce.io/) (CVPR 2025) have been accepted.
-
-- date: Dec 2023
-  description: >-
-    [_DPCL_](https://hyun1a.github.io/dpcl.io/) (future-aware continual learning) has been accepted to **AAAI 2024** as an **Oral**. 🎤
+    [_CPE_](https://hyun1a.github.io/cpe.io) (concept pinpoint eraser) has been accepted to **ICLR 2025**. 🎉
