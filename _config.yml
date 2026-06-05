@@ -26,13 +26,16 @@ github_username: Hyun1A
 google_scholar: 4bKcyukAAAAJ
 description: >-
   I am a Ph.D. candidate at the [Intelligent Computational Imaging Lab](https://icl.snu.ac.kr/) (advised by Prof. [Se Young Chun](https://icl.snu.ac.kr/pi))
-  in the [Department of Electrical and Computer Engineering](https://ece.snu.ac.kr/en) at [Seoul National University](https://en.snu.ac.kr/),
-  and I expect to graduate in February 2027. I received my B.S. in Electrical Engineering from [UNIST](https://www.unist.ac.kr/).
+  in the [Department of Electrical and Computer Engineering](https://ece.snu.ac.kr/en) at [Seoul National University](https://en.snu.ac.kr/). 
+  I received my B.S. in Electrical Engineering from [UNIST](https://www.unist.ac.kr/).
 
+  My research centers on **selective knowledge updates** for deep visual and foundation models &mdash; 
+  how to *add* new knowledge or *remove* unwanted knowledge while preserving what a model already knows.
+  I have studied this through continual learning and concept erasure approaches, 
+  essential for agentic/physical AI, vertical-AI, and visual generative AI.
+  I am currently extending these ideas to multimodal LLMs, omnimodal models, and domain-specialized models, 
+  aiming at adaptive and reliable knowledge updates that efficiently scale to real-world settings.
 
-  My research centers on **selective knowledge updates** for deep visual and foundation models &mdash; how to *add* new knowledge or *remove* unwanted knowledge while preserving what a model already knows.
-  I have studied this through online continual learning (for agentic and physical AI), continual learning for histopathology (a vertical-AI domain), and concept erasure in diffusion models (for visual generative AI).
-  I am currently extending these ideas to multimodal LLMs, agentic AI, and vision-language-action models, aiming at efficient and reliable knowledge updates that scale to real-world and industrial settings.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://keunhong.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: KeunhongP
