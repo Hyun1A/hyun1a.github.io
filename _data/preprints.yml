@@ -2,19 +2,15 @@
 # Compact schema: plain `authors` string (use **B. H. Lee** to emphasize), optional links.
 
 - title: "Strong Helps Weak: Directional Cross-Modal Alignment Transfer in Multi-modal LLMs"
-  authors: "**B. H. Lee**, S. Y. Chun"
   venue: Under review, 2026
 
 - title: "Speculative Encoding for Efficient Gigapixel Whole Slide Image Analysis"
-  authors: "**B. H. Lee**, S. Y. Chun"
   venue: Under review, 2026
 
 - title: "HYPERION: Joint-Hierarchy Hyperbolic Fine-Tuning for Histopathology Slide Representations"
-  authors: "**B. H. Lee**, S. Y. Chun"
   venue: Under review, 2026
 
 - title: "RePath: Zero-Shot Tumor Segmentation in Gigapixel WSIs via Differential Intra-Slide Patch Affinity"
-  authors: "**B. H. Lee**, S. Y. Chun"
   venue: Under review, 2026
 
 - title: "HyperCLOVA X 8B Omni"
