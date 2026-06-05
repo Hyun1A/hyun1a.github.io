@@ -199,7 +199,7 @@ layout: null
               {% elsif item.pdf %}<a href="{{ item.pdf }}">{{ item.title }}</a>
               {% else %}{{ item.title }}{% endif %}
             </h3>
-            <div class="publication-authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+            {% if item.authors %}<div class="publication-authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
             <div class="publication-venue"><span>{{ item.venue }}</span></div>
             {% if item.project_page or item.pdf or item.github %}
             <div class="publication-links buttons field has-addons">
@@ -240,7 +240,7 @@ layout: null
               {% elsif item.pdf %}<a href="{{ item.pdf }}">{{ item.title }}</a>
               {% else %}{{ item.title }}{% endif %}
             </h3>
-            <div class="publication-authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+            {% if item.authors %}<div class="publication-authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
             <div class="publication-venue"><span>{{ item.venue }}</span></div>
             {% if item.project_page or item.pdf or item.github %}
             <div class="publication-links buttons field has-addons">
