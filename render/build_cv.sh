@@ -54,8 +54,8 @@ docker run --rm \
   -v "${REPO_ROOT}":/work \
   -w "/work/${TEX_DIR}" \
   "${TEX_IMAGE}" \
-  sh -c "pdflatex -interaction=nonstopmode -halt-on-error ${TEX_NAME}.tex >/tmp/cv_build.log 2>&1 \
-      && pdflatex -interaction=nonstopmode -halt-on-error ${TEX_NAME}.tex >/tmp/cv_build.log 2>&1 \
+  sh -c "xelatex -interaction=nonstopmode -halt-on-error ${TEX_NAME}.tex >/tmp/cv_build.log 2>&1 \
+      && xelatex -interaction=nonstopmode -halt-on-error ${TEX_NAME}.tex >/tmp/cv_build.log 2>&1 \
       || { echo '--- LaTeX errors ---'; grep -nE '^!|Error|Undefined' /tmp/cv_build.log | head -40; exit 1; }"
 
 # --- Publish + clean ---------------------------------------------------------

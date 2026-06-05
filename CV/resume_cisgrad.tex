@@ -13,7 +13,9 @@
 
 
 
-\usepackage[accsupp]{axessibility}  % Improves PDF readability for those with disabilities.
+% axessibility is pdfTeX-only and conflicts with XeLaTeX (used for the
+% academicons Google Scholar glyph); the CV has no math, so it is not needed.
+% \usepackage[accsupp]{axessibility}  % Improves PDF readability for those with disabilities.
 \usepackage{array}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
@@ -38,6 +40,7 @@
 \usepackage{bbm}
 \usepackage{helvet}
 \usepackage{fontawesome5}
+\usepackage{academicons}
 \usepackage{tikz}
 \usetikzlibrary{fadings,shapes.arrows,shadows}   
 \tikzset{arrowstyle/.style={draw= black,single arrow,minimum height=#1, single arrow,
@@ -100,12 +103,10 @@ single arrow head extend=.4cm,align=center }}
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Contact Information}
 {\bf Affiliation}: Department of Electrical and Computer Engineering, Seoul National University \\[5pt]
-{\large
-\href{mailto:ldlqudgus756@snu.ac.kr}{\faEnvelope[regular]}\hspace{0.9em}
-\href{https://hyun1a.github.io}{\faGlobe}\hspace{0.9em}
-\href{https://scholar.google.com/citations?user=4bKcyukAAAAJ&hl=en}{\faGraduationCap}\hspace{0.9em}
-\href{https://www.linkedin.com/in/bh-lee}{\faLinkedin}
-} \\
+\href{mailto:ldlqudgus756@snu.ac.kr}{\faEnvelope[regular]~Email}\hspace{1.4em}
+\href{https://hyun1a.github.io}{\faGlobe~Website}\hspace{1.4em}
+\href{https://scholar.google.com/citations?user=4bKcyukAAAAJ&hl=en}{\aiGoogleScholar~Google Scholar}\hspace{1.4em}
+\href{https://www.linkedin.com/in/bh-lee}{\faLinkedin~LinkedIn} \\
 \end{rSection}
 
 
