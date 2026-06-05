@@ -1,0 +1,48 @@
+# Other peer-reviewed publications (journals, conferences, workshops, domestic).
+# Compact schema: plain `authors` string (use **B. H. Lee** to emphasize), optional links.
+
+- title: "Unlearning the Unpromptable: Prompt-free Instance Unlearning in Diffusion Models"
+  authors: "K. R. Lee*, K. H. Lee*, S. Hong, **B. H. Lee**, S. Y. Chun"
+  venue: CVPR Workshop on Machine Unlearning for Computer Vision, 2026
+  pdf: https://arxiv.org/abs/2603.10445
+
+- title: "Continual Test-Time Adaptation for Robust Remote Photoplethysmography Estimation"
+  authors: "H. Lee, H. Lee, **B. H. Lee**, S. Y. Chun"
+  venue: IEEE Access, 2025
+  pdf: https://ieeexplore.ieee.org/document/10938539
+
+- title: "All-in-one Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations"
+  authors: "D. Park, **B. H. Lee**, S. Y. Chun"
+  venue: CVPR, 2023
+  pdf: https://ieeexplore.ieee.org/document/10204770
+
+- title: "Towards Accelerating Model Parallelism in Distributed Deep Learning Systems"
+  authors: "H. Choi*, **B. H. Lee***, S. Y. Chun, J. Lee"
+  venue: PLOS One, 2023
+  pdf: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293338
+
+- title: "Selective Concept Erasing for Safe Diffusion Models"
+  authors: "**B. H. Lee**, S. Lim, S. Y. Chun"
+  venue: Korea Signal Processing Conference (Best Poster Award), 2024
+
+- title: "Expert Classifier Ensemble-based Post-processing Correction for Unbiased Scene Graph Generation"
+  authors: "S. Lee, **B. H. Lee**, S. Y. Chun"
+  venue: Workshop on Image Processing and Image Understanding (IPIU), 2024
+
+- title: "Efficient and Accurate Quantized Image Super-Resolution on Mobile NPUs (Mobile AI & AIM 2022 Challenge: Report)"
+  authors: "A. Ignatov et al. (incl. **B. H. Lee**)"
+  venue: ECCV Workshops, 2022
+  pdf: https://link.springer.com/chapter/10.1007/978-3-031-25066-8_4
+
+- title: "Efficient Single-Image Depth Estimation on Mobile Devices (Mobile AI & AIM 2022 Challenge: Report)"
+  authors: "A. Ignatov et al. (incl. **B. H. Lee**)"
+  venue: ECCV Workshops, 2022
+
+- title: "Uncertainty-based Dual-Domain Low-Dose X-ray CT Reconstruction"
+  authors: "S. Lee, D. U. Kang, **B. H. Lee**, S. Y. Chun"
+  venue: Korea Signal Processing Conference, 2022
+
+- title: "Empirically Accelerating Scaled Gradient Projection Using Deep Neural Network for Inverse Problems in Image Processing"
+  authors: "**B. H. Lee**, S. Y. Chun"
+  venue: ICASSP, 2021
+  pdf: https://ieeexplore.ieee.org/document/9415023

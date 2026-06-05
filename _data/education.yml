@@ -1,4 +1,9 @@
-- name: University of Washington 
+- name: Seoul National University (SNU)
   description: >-
-    Ph. D in Electrical and Computer Engineering, advised by <a href="https://icl.snu.ac.kr/pi">Se Young Chun</a> and
-  dates: Fall 2015 - Spring 2022
+    Combined M.S./Ph.D. in Electrical and Computer Engineering, advised by <a href="https://icl.snu.ac.kr/pi">Se Young Chun</a>.
+  dates: Mar 2021 - Feb 2027 (expected)
+
+- name: Ulsan National Institute of Science and Technology (UNIST)
+  description: >-
+    B.S. in Electrical Engineering (GPA 4.04/4.30).
+  dates: Mar 2015 - Aug 2018

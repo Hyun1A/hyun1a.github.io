@@ -1,4 +1,9 @@
-- company: UNIST
-  description: Undergraduate Researcher
-  dates: "May 2020 - Jan 2021"
+- company: NAVER Cloud
+  description: Visiting Researcher, HyperCLOVA X (national AI foundation-model project)
+  dates: "Oct 2025 - Feb 2026"
+  location: Seongnam, South Korea
+
+- company: UNIST (Biomedical Image Processing Lab)
+  description: Researcher, advised by Prof. Se Young Chun
+  dates: "May 2020 - Feb 2021"
   location: Ulsan, South Korea
