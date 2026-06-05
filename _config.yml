@@ -24,16 +24,16 @@ position: Ph.D. Candidate, Seoul National University
 email: ldlqudgus756@snu.ac.kr
 github_username: Hyun1A
 google_scholar: 4bKcyukAAAAJ
-description: >-
+description: |
   I am a Ph.D. candidate at the [Intelligent Computational Imaging Lab](https://icl.snu.ac.kr/) (advised by Prof. [Se Young Chun](https://icl.snu.ac.kr/pi))
-  in the [Department of Electrical and Computer Engineering](https://ece.snu.ac.kr/en) at [Seoul National University](https://en.snu.ac.kr/). 
+  in the [Department of Electrical and Computer Engineering](https://ece.snu.ac.kr/en) at [Seoul National University](https://en.snu.ac.kr/).
   I received my B.S. in Electrical Engineering from [UNIST](https://www.unist.ac.kr/).
 
-  My research centers on **selective knowledge updates** for deep visual and foundation models &mdash; 
+  My research centers on **selective knowledge updates** for deep visual and foundation models &mdash;
   how to *add* new knowledge or *remove* unwanted knowledge while preserving what a model already knows.
-  I have studied this through continual learning and concept erasure approaches, 
+  I have studied this through continual learning and concept erasure approaches,
   essential for agentic/physical AI, vertical-AI, and visual generative AI.
-  I am currently extending these ideas to multimodal LLMs, omnimodal models, and domain-specialized models, 
+  I am currently extending these ideas to multimodal LLMs, omnimodal models, and domain-specialized models,
   aiming at adaptive and reliable knowledge updates that efficiently scale to real-world settings.
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -47,6 +47,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 theme: minima
 plugins:
   - jekyll-feed
+
+# Render single newlines in Markdown as <br> (keeps the bio's line breaks).
+markdown: kramdown
+kramdown:
+  hard_wrap: true
 
 sass:
   style: compact
