@@ -29,11 +29,13 @@ git push
 
 ## How it works
 
-The CV uses `kotex` (for the ₩ symbol) plus `tikz`, `helvet`, `axessibility`,
-etc., so a full TeX distribution is needed. To avoid installing TeX Live
-locally, the script compiles inside the official `texlive/texlive` Docker image:
+The CV uses `kotex` (for the ₩ symbol), `academicons` (for the Google Scholar
+icon, which requires XeLaTeX/LuaLaTeX), plus `tikz`, `helvet`, `fontawesome5`,
+`axessibility`, etc., so a full TeX distribution is needed. To avoid installing
+TeX Live locally, the script compiles inside the official `texlive/texlive`
+Docker image:
 
-- runs `pdflatex` twice (for hyperref bookmarks),
+- runs `xelatex` twice (for hyperref bookmarks),
 - runs as the current host user (`--user`) so outputs are **not** root-owned,
 - moves the result to `files/CV_bh_lee.pdf` and cleans up `.aux/.log/.out`.
 
@@ -52,6 +54,6 @@ If you already have a local TeX Live with Korean support, you can skip Docker
 and compile manually:
 
 ```bash
-cd CV && pdflatex resume_cisgrad.tex && pdflatex resume_cisgrad.tex
+cd CV && xelatex resume_cisgrad.tex && xelatex resume_cisgrad.tex
 mv resume_cisgrad.pdf ../files/CV_bh_lee.pdf
 ```
