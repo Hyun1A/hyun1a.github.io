@@ -187,33 +187,87 @@ layout: null
       </div>
       {% endfor %}
 
-      <!-- Preprints / Under Review. -->
-      <h2 class="title is-3">Preprints &amp; Under Review</h2>
-      <div class="content">
-        {% for item in site.data.preprints %}
-        <div class="compact-pub">
-          <span class="compact-title">
-            {% if item.pdf %}<a href="{{ item.pdf }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
-          </span>
-          <div class="compact-authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
-          <div class="compact-venue">{{ item.venue }}</div>
-        </div>
-        {% endfor %}
-      </div>
-
       <!-- Other Publications. -->
       <h2 class="title is-3">Other Publications</h2>
-      <div class="content">
-        {% for item in site.data.publications_other %}
-        <div class="compact-pub">
-          <span class="compact-title">
-            {% if item.pdf %}<a href="{{ item.pdf }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
-          </span>
-          <div class="compact-authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
-          <div class="compact-venue">{{ item.venue }}</div>
+
+      {% for item in site.data.publications_other %}
+      <div class="publication-block columns is-textonly">
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              {% if item.project_page %}<a href="{{ item.project_page }}">{{ item.title }}</a>
+              {% elsif item.pdf %}<a href="{{ item.pdf }}">{{ item.title }}</a>
+              {% else %}{{ item.title }}{% endif %}
+            </h3>
+            <div class="publication-authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+            <div class="publication-venue"><span>{{ item.venue }}</span></div>
+            {% if item.project_page or item.pdf or item.github %}
+            <div class="publication-links buttons field has-addons">
+              {% if item.project_page %}
+              <a class="external-link button is-small is-ghost" href="{{ item.project_page }}">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Project Page</span>
+              </a>
+              {% endif %}
+              {% if item.pdf %}
+              <a class="external-link button is-small is-ghost" href="{{ item.pdf }}">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>PDF</span>
+              </a>
+              {% endif %}
+              {% if item.github %}
+              <a class="external-link button is-small is-ghost" href="{{ item.github }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
         </div>
-        {% endfor %}
       </div>
+      {% endfor %}
+
+      <!-- Preprints / Under Review. -->
+      <h2 class="title is-3">Preprints &amp; Under Review</h2>
+
+      {% for item in site.data.preprints %}
+      <div class="publication-block columns is-textonly">
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              {% if item.project_page %}<a href="{{ item.project_page }}">{{ item.title }}</a>
+              {% elsif item.pdf %}<a href="{{ item.pdf }}">{{ item.title }}</a>
+              {% else %}{{ item.title }}{% endif %}
+            </h3>
+            <div class="publication-authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+            <div class="publication-venue"><span>{{ item.venue }}</span></div>
+            {% if item.project_page or item.pdf or item.github %}
+            <div class="publication-links buttons field has-addons">
+              {% if item.project_page %}
+              <a class="external-link button is-small is-ghost" href="{{ item.project_page }}">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Project Page</span>
+              </a>
+              {% endif %}
+              {% if item.pdf %}
+              <a class="external-link button is-small is-ghost" href="{{ item.pdf }}">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>PDF</span>
+              </a>
+              {% endif %}
+              {% if item.github %}
+              <a class="external-link button is-small is-ghost" href="{{ item.github }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
 
     </div>
   </section>

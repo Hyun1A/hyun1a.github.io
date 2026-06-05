@@ -34,35 +34,18 @@
     }
 }
 
-.compact-pub {
-    margin-bottom: 1.0em;
-    line-height: 1.35;
+// Text-only publication blocks (Other Publications, Preprints / Under Review):
+// same typography as Selected Publications, just without a thumbnail column.
+.publication-block.is-textonly {
+    margin-bottom: 1.1em;
 
-    .compact-title {
-        font-weight: 600;
+    .content { margin-bottom: 0; }
+}
 
-        a {
-            color: #000;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    }
-
-    .compact-authors {
-        color: #333;
-        font-size: 95%;
-
-        strong {
-            color: #000;
-            font-weight: 600;
-        }
-    }
-
-    .compact-venue {
-        color: #555;
-        font-size: 90%;
-    }
+// Bold the author's own name when it comes from Markdown (**B. H. Lee**).
+.publication-authors strong {
+    color: #000;
+    font-weight: 600;
 }
 
 .footer .footer-links a {
