@@ -58,13 +58,18 @@ layout: null
                 <span>CV</span>
               </a>
 
+              <a class="external-link button is-light" href="mailto:{{ site.email }}">
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <span>Email</span>
+              </a>
+
               <a class="external-link button is-light"
-                href="https://scholar.google.com/citations?hl=ko&user=4bKcyukAAAAJ">
+                href="https://scholar.google.com/citations?hl=ko&user={{ site.google_scholar }}">
                 <span class="icon"><i class="ai ai-google-scholar"></i></span>
                 <span>Scholar</span>
               </a>
 
-              <a class="external-link button is-light" href="https://github.com/Hyun1A">
+              <a class="external-link button is-light" href="https://github.com/{{ site.github_username }}">
                 <span class="icon"><i class="fab fa-github"></i></span>
                 <span>Github</span>
               </a>
@@ -91,18 +96,20 @@ layout: null
   <section class="section">
     <div class="container is-max-desktop">
 
-      <!--<h2 class="title is-3">News</h2>
-      <div class="content">
+      <h2 class="title is-3">News</h2>
+      <div class="content news-list">
         <ul>
           {% for news in site.data.news %}
           <li>
-            <b>{{ news.date }}</b>: {{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}
+            <b>{{ news.date }}</b> &nbsp;{{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}
           </li>
           {% endfor %}
         </ul>
-      </div>-->
+      </div>
 
-      <h2 class="title is-3">Publications</h2>
+      <!-- Selected Publications. -->
+      <h2 class="title is-3">Selected Publications</h2>
+      <p class="section-note"><sup>*</sup> denotes equal contribution.</p>
 
       {% for publication in site.data.publications %}
       <div class="publication-block columns">
@@ -123,7 +130,7 @@ layout: null
           <div class="content">
             <h3 class="publication-title"><a href="{{ publication.project_page }}">{{ publication.title }}</a></h3>
             <div class="publication-authors">
-              
+
               {% for author_id in publication.authors %}
                 {%- assign is_cofirst = false -%}
                 {%- if author_id contains '*' -%}
@@ -132,9 +139,9 @@ layout: null
                 {%- else -%}
                     {%- assign author_key = author_id -%}
                 {%- endif -%}
-              
+
                 {%- assign author = site.data.authors[author_key] -%}
-              
+
                 <span class="author-block {% if author.is_me %}author-me{% endif %}">
                   {% if author.is_me %}
                     {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}
@@ -151,16 +158,18 @@ layout: null
             <div class="publication-venue">
               <span>{{ publication.venue }}</span>
               {% for award in publication.awards %}
-                <span class="publication-venue-emph">{{ award }}<span>
+                <span class="publication-venue-emph">{{ award }}</span>
               {% endfor %}
             </div>
             <p class="publication-description">{{ publication.description }}</p>
             <!-- Publication Links. -->
             <div class="publication-links buttons field has-addons">
+              {% if publication.project_page %}
               <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
                 <span class="icon"><i class="fas fa-globe-asia"></i></span>
                 <span>Project Page</span>
               </a>
+              {% endif %}
               <a class="external-link button is-small is-ghost" href="{{ publication.pdf }}">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>PDF</span>
@@ -177,6 +186,35 @@ layout: null
         </div>
       </div>
       {% endfor %}
+
+      <!-- Preprints / Under Review. -->
+      <h2 class="title is-3">Preprints &amp; Under Review</h2>
+      <div class="content">
+        {% for item in site.data.preprints %}
+        <div class="compact-pub">
+          <span class="compact-title">
+            {% if item.pdf %}<a href="{{ item.pdf }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+          </span>
+          <div class="compact-authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+          <div class="compact-venue">{{ item.venue }}</div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Other Publications. -->
+      <h2 class="title is-3">Other Publications</h2>
+      <div class="content">
+        {% for item in site.data.publications_other %}
+        <div class="compact-pub">
+          <span class="compact-title">
+            {% if item.pdf %}<a href="{{ item.pdf }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+          </span>
+          <div class="compact-authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+          <div class="compact-venue">{{ item.venue }}</div>
+        </div>
+        {% endfor %}
+      </div>
+
     </div>
   </section>
 
@@ -193,6 +231,9 @@ layout: null
         <a class="external-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
           <i class="ai ai-google-scholar"></i>
         </a>
+        <a class="external-link" href="https://www.linkedin.com/in/bh-lee/">
+          <i class="fab fa-linkedin"></i>
+        </a>
       </div>
       <div class="columns is-centered has-text-centered">
         <div class="column is-8">
@@ -201,7 +242,7 @@ layout: null
               Website template from <a href="https://keunhong.com/">Keunhong Park</a>.
             </p>
             <p>
-              Last updated Apr 2025.
+              Last updated Jun 2026.
             </p>
           </div>
         </div>

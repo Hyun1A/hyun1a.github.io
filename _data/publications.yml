@@ -5,13 +5,13 @@
   pdf: https://arxiv.org/abs/2604.16481
   github: https://github.com/Hyun1A/EraseAtScale
   image: etc_thumbnail.png
+  description: "Scales selective concept erasure to 2,000+ concepts while preserving the remaining ones, via optimal transport and mixture-of-experts updates."
   authors:
     - hgseo*
     - bhlee*
     - jhcho
     - sjlim
     - sychun
-    
 
 - id: comel
   title: "Continual Multiple Instance Learning with Enhanced Localization for Histopathological Whole Slide Image Analysis"
@@ -20,13 +20,13 @@
   pdf: https://arxiv.org/pdf/2507.02395
   github: https://github.com/Hyun1A/CoMEL
   image: comel_thumbnail.png
+  description: "Memory-free continual learning for gigapixel pathology slides, preserving both diagnosis and localization across a stream of organs."
   authors:
     - bhlee
     - wgjeong
     - wjhan
     - kblee
     - sychun
-    
 
 - id: gloce
   title: "Localized Concept Erasure for Text-to-Image Diffusion Models Using Training-Free Gated Low-Rank Adaptation"
@@ -35,6 +35,7 @@
   pdf: https://arxiv.org/pdf/2503.12356
   github: https://github.com/Hyun1A/GLoCE
   image: gloce.jpg
+  description: "Training-free, spatially localized concept erasure that removes only the target while keeping the rest of the image intact."
   authors:
     - bhlee*
     - sjlim*
@@ -47,6 +48,7 @@
   pdf: https://openreview.net/pdf?id=ZRDhBwKs7l
   github: https://github.com/Hyun1A/CPE
   image: cpe.jpg
+  description: "A residual attention gate that erases target concepts from diffusion models while preserving the generation of remaining concepts."
   authors:
     - bhlee*
     - sjlim*
@@ -54,39 +56,20 @@
     - dukang
     - sychun
 
-- id: tta
-  title: "Continual Test-Time Adaptation for Robust Remote Photoplethysmography Estimation"
-  venue: IEEE Access, 2025
-  pdf: https://ieeexplore.ieee.org/document/10938539
-  image: tta.jpg
-  authors:
-    - hwlee
-    - harrylee
-    - bhlee
-    - sychun
-
 - id: dpcl
-  title: "Doubly perturbed task free continual learning"
-  venue: AAAI (Oral), 2024
+  title: "Doubly Perturbed Task-Free Continual Learning"
+  venue: AAAI, 2024
+  awards:
+    - Oral
   project_page: https://hyun1a.github.io/dpcl.io/
   pdf: https://arxiv.org/pdf/2312.13027
   github: https://github.com/Hyun1A/DPCL
   image: dpcl.jpg
+  description: "Future-aware online continual learning that improves stability and plasticity through doubly perturbed training."
   authors:
     - bhlee
     - mhoh
     - sychun
-
-- id: parallel
-  title: "Towards accelerating model parallelism in distributed deep learning systems"
-  venue: PLOS One, 2024
-  pdf: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293338
-  image: parallel.jpg
-  authors:
-    - hschoi*
-    - bhlee*
-    - sychun
-    - jhlee
 
 - id: hle
   title: "Online Continual Learning on Hierarchical Label Expansion"
@@ -95,27 +78,9 @@
   pdf: https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Online_Continual_Learning_on_Hierarchical_Label_Expansion_ICCV_2023_paper.pdf
   github: https://github.com/Hyun1A/HLE
   image: hle.jpg
+  description: "Hierarchy-aware memory management for online continual learning under streaming, label-expanding data."
   authors:
     - bhlee*
     - ocjeong*
     - jhchoi
-    - sychun
-
-- id: allinone
-  title: "All-in-one Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations"
-  venue: CVPR, 2023
-  pdf: https://openaccess.thecvf.com/content/ICCV2023/papers/Lee_Online_Continual_Learning_on_Hierarchical_Label_Expansion_ICCV_2023_paper.pdf
-  image: allinone.jpg
-  authors:
-    - dwpark
-    - bhlee
-    - sychun
-
-- id: accsgp
-  title: "Empirically Accelerating Scaled Gradient Projection Using Deep Neural Network for Inverse Problems in Image Processing"
-  venue: ICASSP, 2021
-  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9415023
-  image: accsgp.png
-  authors:
-    - bhlee
     - sychun

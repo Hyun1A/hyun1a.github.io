@@ -1,0 +1,207 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% custom packages %%%%%%
+% % \setcounter{secnumdepth}{0} %May be changed to 1 or 2 if section numbers are desired.
+
+
+
+\usepackage[accsupp]{axessibility}  % Improves PDF readability for those with disabilities.
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage{color, colortbl}
+\definecolor{Gray}{gray}{0.85}
+\usepackage{lipsum}
+\usepackage{bbm}
+\usepackage{kotex}
+\usepackage{verbatim}
+\usepackage{multirow}
+\usepackage{amsmath}
+
+\usepackage{multirow}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{comment}
+\usepackage[normalem]{ulem}
+\usepackage{bbm}
+\usepackage{helvet}
+\usepackage{tikz}
+\usetikzlibrary{fadings,shapes.arrows,shadows}   
+\tikzset{arrowstyle/.style={draw= black,single arrow,minimum height=#1, single arrow,
+single arrow head extend=.4cm,align=center }}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{wrapfig}
+% \usepackage{floatrow}
+
+\newtheorem{theorem}{Theorem}%[section]
+\newtheorem{corollary}{Corollary}%[theorem]
+\newtheorem{lemma}{Lemma}%[therem]
+\newtheorem*{remark}{Remark}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{assumption}{Assumption}
+\newenvironment{oneshot}[1]{\@begintheorem{#1}{\unskip}}{\@endtheorem}
+
+% \usepackage{subcaption}
+% \usepackage{subfigure}
+% \usepackage{multicol}
+% \usepackage{cellspace}
+\usepackage{booktabs} % For formal tables
+\usepackage{caption} % For using \captionof
+\usepackage{bm}
+\usepackage{dsfont}
+
+\usepackage{xcolor}
+
+
+
+\definecolor{myurlcolor}{RGB}{0,100,250}
+\usepackage[colorlinks=true, urlcolor=myurlcolor]{hyperref}
+
+
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\mycolor}[1]{\textcolor{myurlcolor}{#1}}
+
+%%%%%% custom packages %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\name{Research Outcomes} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+
+% \address{Email: ldlqudgus756@snu.ac.kr}
+% \address{Phone Number: 010-6266-7272}
+
+%\address{Seoul, South Korea}
+%\address{\href{mailto:youremailhere@gmail.com}{ldlqudgus756@snu.ac.kr}} %\href{https://linkedin.com/in/linkedinURL}{linkedin.com/in/linkedinURL} %\\ \href{www.github.com}{www.github.com}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Research Interests}
+% % My research focuses on continual learning, machine unlearning, and their applications to foundation models.
+% My research focuses on forgetting in neural networks — an essential challenge to address for continual learning, model merging, and machine unlearning in foundation models. I've conducted research on deep neural network architectures that address conflicting objectives and continual learning algorithms. Recently, I've been working on concept erasing for responsible generative AI via continual learning approaches. 
+% \end{rSection}
+
+\vskip -0.3in
+
+\small
+
+\begin{rSection}{Publications}
+
+\textbullet~\,\, \mycolor{Continual Multiple Instance Learning with Enhanced Localization for Histopathological Whole Slide Image Analysis}
+\\ \hspace*{1.5em}(ICCV, 2025)
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}$, W. Jeong, W. Han, K. Lee, S. Y. Chun}
+
+
+
+\textbullet~\,\, \href{https://arxiv.org/abs/2503.12356}{Localized Concept Erasure for Text-to-Image Diffusion Models Using Training-Free Gated Low-Rank Adaptation} (CVPR, 
+\\ \hspace*{1.5em}2025)
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}^{*}$, $\text{S. Lim}^{*}$, S. Y. Chun ($^{*} \text{co-first authors}$)}
+
+
+\textbullet~\,\, \href{https://arxiv.org/abs/2312.13027}{Concept pinpoint eraser for text-to-image diffusion models via residual attention gate} (ICLR, 2025)
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}^{*}$, $\text{S. Lim}^{*}$, S. Lee, D. U. Kang, S. Y. Chun ($^{*} \text{co-first authors}$)}
+
+
+
+\textbullet~\,\, \href{https://ieeexplore.ieee.org/document/10938539}{Continual Test-Time Adaptation for Robust Remote Photoplethysmography Estimation} (IEEE Access, 2025)
+\\ \hspace*{1.5em}{H. Lee, H. Lee, $\textbf{B. H. Lee}$, S. Y. Chun}
+
+
+
+\textbullet~\,\, {\mycolor{Selective Concept Erasing for Safe Diffusion Models}} (Korea Signal Processing Conference, Best Poster Presentation Award, 
+\\ \hspace*{1.5em} 2024)
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}$, S. Lim, S. Y. Chun} 
+
+\textbullet~\,\, \href{https://arxiv.org/abs/2312.13027}{Doubly perturbed task free continual learning} (AAAI, oral, 2024)
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}$, M. Oh, S. Y. Chun}
+
+
+\textbullet~\,\, {\mycolor{Expert classifier ensemble based post-processing correction for unbiased scene graph generation}} (Workshop on Image 
+\\ \hspace*{1.5em}Processing and Image Understanding, 2024)
+\\ \hspace*{1.5em}{S. Lee, \textbf{B. H. Lee}, S. Y. Chun} 
+
+
+
+\textbullet~\,\, \href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293338}{Towards accelerating model parallelism in distributed deep learning systems} (PLOS One, 2023)
+\\ \hspace*{1.5em}{$\text{H. Choi}^{*}$, $\textbf{B. H. Lee}^{*}$, S. Y. Chun, J. Lee ($^{*} \text{co-first authors}$)}
+
+
+\textbullet~\,\, \href{https://ieeexplore.ieee.org/document/10377260}{Online Continual Learning on Hierarchical Label Expansion} (ICCV, 2023)
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}^*$, $\text{O. Jung}^*$, J. Choi, S. Y. Chun ($^{*} \text{co-first authors}$)} 
+
+
+\textbullet~\,\, \href{https://ieeexplore.ieee.org/document/10204770}{All-in-one image restoration for unknown degradations using adaptive discriminative filters for specific degradations}
+\\ \hspace*{1.5em}(CVPR, 2023)
+\\ \hspace*{1.5em}{D. Park, $\textbf{B. H. Lee}$, S. Y. Chun}
+
+
+\textbullet~\,\, \href{https://link.springer.com/chapter/10.1007/978-3-031-25066-8_4}{Efficient and accurate quantized image super-resolution on mobile npus, mobile ai \& aim 2022 challenge: report
+} 
+\\ \hspace*{1.5em}(ECCVW, 2022)
+\\ \hspace*{1.5em}{A. Ignatov et al. (including \textbf{B. H. Lee})}
+
+
+\textbullet~\,\, \href{https://link.springer.com/chapter/10.1007/978-3-031-25066-8_4}{Efficient single-image depth estimation on mobile devices, mobile AI \& AIM 2022 challenge: report} (ECCVW, 2022)
+\\ \hspace*{1.5em}{A. Ignatov et al. (including \textbf{B. H. Lee})} 
+
+
+
+
+
+\textbullet~\,\, {\mycolor{Uncertainty-based dual domain low-dose X-ray CT reconstruction}} (Korean Signal Processing Conference, 2022)
+\\ \hspace*{1.5em}{S. Lee, D. U. Kang, \textbf{B. H. Lee}, S. Y. Chun} 
+
+\textbullet~\,\, \href{https://ieeexplore.ieee.org/document/9415023}{Empirically Accelerating Scaled Gradient Projection Using Deep Neural Network for Inverse Problems in Image \\ \hspace*{1.5em}Processing} (ICASSP, 2021)
+\\ \hspace*{1.5em}{\textbf{B. H. Lee}, S. Y. Chun} \\
+\end{rSection} 
+
+\vskip -0.2in
+
+\begin{rSection}{Preprints / Technical Reports}
+
+\textbullet~\,\, \href{https://arxiv.org/pdf/2503.23011}{Geometrical Properties of Text Token Embeddings for Strong Semantic Binding in Text-to-Image Generation}
+\\ \hspace*{1.5em}{$\text{H. Seo}^{*}$, $\text{J. Bang}^{*}$, $\text{H. Lee}^{*}$, J. Lee, \textbf{B. H. Lee} , S. Y. Chun}
+
+\end{rSection}
+
+\vskip -0.1in
+
+\begin{rSection}{Patents}
+\textbullet~\,\, \textbf{All-in-one image quality improvement model providing method performing image quality \\\hspace*{1.4em}restoration for multiple image quality degradation factors} (U.S. Patent, Filed, 2023)
+\\ \hspace*{1.5em}{S. Y. Chun, D. Park, \textbf{B. H. Lee}}
+
+
+\textbullet~\,\, \textbf{Method for providing all-in-one image quality improvement model that performs image quality \\\hspace*{1.4em}restoration for multiple image quality inhibitors} (Korea Patent, Filed, 2023)
+\\ \hspace*{1.5em}{S. Y. Chun, D. Park, \textbf{B. H. Lee}}
+\end{rSection}
+
+
+
+\begin{rSection}{Presentations}
+\textbullet~\,\, \textbf{Continual Learning and Its Applications in Magnetic Resonance Imaging}
+\\ \hspace*{1.5em}Advanced neuroimaging and AI workshop, SNU, 2024 \\
+\end{rSection}
+
+
+\end{document}

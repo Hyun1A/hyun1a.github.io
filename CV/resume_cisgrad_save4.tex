@@ -1,0 +1,287 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% custom packages %%%%%%
+% % \setcounter{secnumdepth}{0} %May be changed to 1 or 2 if section numbers are desired.
+
+
+
+\usepackage[accsupp]{axessibility}  % Improves PDF readability for those with disabilities.
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage{color, colortbl}
+\definecolor{Gray}{gray}{0.85}
+\usepackage{lipsum}
+\usepackage{bbm}
+\usepackage{kotex}
+\usepackage{verbatim}
+\usepackage{multirow}
+\usepackage{amsmath}
+
+\usepackage{multirow}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{comment}
+\usepackage[normalem]{ulem}
+\usepackage{bbm}
+\usepackage{helvet}
+\usepackage{tikz}
+\usetikzlibrary{fadings,shapes.arrows,shadows}   
+\tikzset{arrowstyle/.style={draw= black,single arrow,minimum height=#1, single arrow,
+single arrow head extend=.4cm,align=center }}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{wrapfig}
+% \usepackage{floatrow}
+
+\newtheorem{theorem}{Theorem}%[section]
+\newtheorem{corollary}{Corollary}%[theorem]
+\newtheorem{lemma}{Lemma}%[therem]
+\newtheorem*{remark}{Remark}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{assumption}{Assumption}
+\newenvironment{oneshot}[1]{\@begintheorem{#1}{\unskip}}{\@endtheorem}
+
+% \usepackage{subcaption}
+% \usepackage{subfigure}
+% \usepackage{multicol}
+% \usepackage{cellspace}
+\usepackage{booktabs} % For formal tables
+\usepackage{caption} % For using \captionof
+\usepackage{bm}
+\usepackage{dsfont}
+
+\usepackage{xcolor}
+
+
+
+\definecolor{myurlcolor}{RGB}{0,100,250}
+\usepackage[colorlinks=true, urlcolor=myurlcolor]{hyperref}
+
+
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\mycolor}[1]{\textcolor{myurlcolor}{#1}}
+
+%%%%%% custom packages %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\name{Byung Hyun Lee} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+
+% \address{Email: ldlqudgus756@snu.ac.kr}
+% \address{Phone Number: 010-6266-7272}
+
+%\address{Seoul, South Korea}
+%\address{\href{mailto:youremailhere@gmail.com}{ldlqudgus756@snu.ac.kr}} %\href{https://linkedin.com/in/linkedinURL}{linkedin.com/in/linkedinURL} %\\ \href{www.github.com}{www.github.com}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Contact Information}
+{\bf Affiliation}: Department of Electrical and Computer Engineering, Seoul National University \\
+{\bf Email}: \href{mailto:ldlqudgus756@snu.ac.kr}{ldlqudgus756@snu.ac.kr} \\
+{\bf Website}: \href{https://hyun1a.github.io}{https://hyun1a.github.io} \\
+{\bf LinkedIn}: \href{https://www.linkedin.com/in/bh-lee}{https://www.linkedin.com/in/bh-lee} \\
+\end{rSection}
+
+
+\begin{rSection}{Research Interests}
+% My research focuses on continual learning, machine unlearning, and their applications to foundation models.
+My research focuses on forgetting in AI — an essential ML challenge for machine unlearning, continual learning, and trustworthy foundation models and agentic AI. Specifically, I have investigated the forgetting in vision language foundation models and image generative models. More recently, I've been working on machine unlearning as responsible ML algorithms. My work explores two key areas:
+
+\textbullet~\,\,Machine Unlearning and Model Merging for Responsible Generative AI
+
+\textbullet~\,\,Continual Learning for Foundation Models and Agentic AI.
+
+Additionally, I’m interested in model acceleration, image restoration, and histopathological analysis. \\
+\end{rSection}
+
+
+
+
+\begin{rSection}{Education}
+\textbullet~\,\, {\bf Seoul National University (SNU)} \hfill {\it Mar 2021 - present}
+\\\hspace*{1.5em}{Combined M.S./Ph.D Program in Electrical and Computer Engineering (ECE)} 
+
+\textbullet~\,\, {\bf Ulsan National Institute of Science and Technology (UNIST)} \hfill {\it Mar 2015 - Aug 2018}
+\\\hspace*{1.5em}{B.S. in Electical Engineering, GPA: 4.04/4.30}\\
+
+\end{rSection}
+\begin{rSection}{Research Advisor}
+\textbullet~\,\,\,\,{\bf Se Young Chun:}{ Professor, Department of Electrical and Computer Engineering (ECE), SNU} \\
+\end{rSection}
+
+
+
+
+
+
+
+\begin{rSection}{Publications {\NoCaseChange{\textnormal{(Top AI Conference Papers)}}}}
+
+\textbullet~\,\, \href{https://arxiv.org/pdf/2507.02395}{Continual Multiple Instance Learning with Enhanced Localization for Histopathological Whole Slide Image \\ \hspace*{1.5em}{Analysis}} 
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}$, W. Jeong, W. Han, K. Lee, S. Y. Chun}
+\\ \hspace*{1.5em} \textit{Accepted at} International Conference on Computer Vision (ICCV), 2025
+
+\textbullet~\,\, \href{https://arxiv.org/abs/2503.12356}{Localized Concept Erasure for Text-to-Image Diffusion Models Using Training-Free Gated Low-Rank Adaptation}
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}^{*}$, $\text{S. Lim}^{*}$, S. Y. Chun ($^{*} \text{co-first authors}$)}
+\\ \hspace*{1.5em}Conference on Computer Vision and Pattern Recognition (CVPR), 2025
+
+\textbullet~\,\, \href{https://arxiv.org/abs/2312.13027}{Concept pinpoint eraser for text-to-image diffusion models via residual attention gate}
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}^{*}$, $\text{S. Lim}^{*}$, S. Lee, D. U. Kang, S. Y. Chun ($^{*} \text{co-first authors}$)}
+\\ \hspace*{1.5em}International Conference on Learning Representations (ICLR), 2025
+
+\textbullet~\,\, \href{https://arxiv.org/abs/2312.13027}{Doubly perturbed task free continual learning}
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}$, M. Oh, S. Y. Chun}
+\\ \hspace*{1.5em}Proceedings of the AAAI Conference on Artificial Intelligence (AAAI, oral), 2024
+
+\textbullet~\,\, \href{https://ieeexplore.ieee.org/document/10377260}{Online Continual Learning on Hierarchical Label Expansion
+}
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}^*$, $\text{O. Jung}^*$, J. Choi, S. Y. Chun ($^{*} \text{co-first authors}$)}
+\\ \hspace*{1.5em}International Conference on Computer Vision (ICCV), 2023
+
+
+\textbullet~\,\, \href{https://ieeexplore.ieee.org/document/10204770}{All-in-one image restoration for unknown degradations using adaptive discriminative filters for specific degradations}
+\\ \hspace*{1.5em}{D. Park, $\textbf{B. H. Lee}$, S. Y. Chun}
+\\ \hspace*{1.5em}Conference on Computer Vision and Pattern Recognition (CVPR), 2023
+
+\end{rSection}
+
+
+
+\begin{rSection}{Publications {\NoCaseChange{\textnormal{(Journal Papers)}}}}
+
+\textbullet~\,\, \href{https://ieeexplore.ieee.org/document/10938539}{Continual Test-Time Adaptation for Robust Remote Photoplethysmography Estimation}
+\\ \hspace*{1.5em}{H. Lee, H. Lee, $\textbf{B. H. Lee}$, S. Y. Chun}
+\\ \hspace*{1.5em}IEEE Access, 2025
+
+\textbullet~\,\, \href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293338}{Towards accelerating model parallelism in distributed deep learning systems}
+\\ \hspace*{1.5em}{$\text{H. Choi}^{*}$, $\textbf{B. H. Lee}^{*}$, S. Y. Chun, J. Lee ($^{*} \text{co-first authors}$)}
+\\ \hspace*{1.5em}PLOS One, 2023
+
+\end{rSection} 
+
+
+
+
+\begin{rSection}{Publications {\NoCaseChange{\textnormal{(Short, Workshop, or Domestic Papers)}}}}
+
+\textbullet~\,\, {\mycolor{Selective Concept Erasing for Safe Diffusion Models}}
+\\ \hspace*{1.5em}{$\textbf{B. H. Lee}$, S. Lim, S. Y. Chun}
+\\ \hspace*{1.5em}Korea Signal Processing Conference (Best Poster Presentation Award), 2024
+
+\textbullet~\,\, {\mycolor{Expert classifier ensemble based post-processing correction for unbiased scene graph generation}}
+\\ \hspace*{1.5em}{S. Lee, \textbf{B. H. Lee}, S. Y. Chun}
+\\ \hspace*{1.5em}Workshop on Image Processing and Image Understanding (IPIU), 2024
+
+
+\textbullet~\,\, \href{https://link.springer.com/chapter/10.1007/978-3-031-25066-8_4}{Efficient and accurate quantized image super-resolution on mobile npus, mobile ai \& aim 2022 challenge: report
+}
+\\ \hspace*{1.5em}{A. Ignatov et al. (including \textbf{B. H. Lee})}
+\\ \hspace*{1.5em}European Conference on Computer Vision Workshops (ECCVW), 2022
+
+
+\textbullet~\,\, \href{https://link.springer.com/chapter/10.1007/978-3-031-25066-8_4}{Efficient single-image depth estimation on mobile devices, mobile AI \& AIM 2022 challenge: report}
+\\ \hspace*{1.5em}{A. Ignatov et al. (including \textbf{B. H. Lee})}
+\\ \hspace*{1.5em}European Conference on Computer Vision Workshops (ECCVW), 2022
+
+\textbullet~\,\, {\mycolor{Uncertainty-based dual domain low-dose X-ray CT reconstruction}}
+\\ \hspace*{1.5em}{S. Lee, D. U. Kang, \textbf{B. H. Lee}, S. Y. Chun}
+\\ \hspace*{1.5em}Korean Signal Processing Conference, 2022
+
+\textbullet~\,\, \href{https://ieeexplore.ieee.org/document/9415023}{Empirically Accelerating Scaled Gradient Projection Using Deep Neural Network for Inverse Problems in Image \\ \hspace*{1.5em}Processing}
+\\ \hspace*{1.5em}{\textbf{B. H. Lee}, S. Y. Chun}
+\\ \hspace*{1.5em}International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021 
+\end{rSection} 
+
+
+\begin{rSection}{Preprints / Manuscripts under review}
+
+% \textbullet~\,\, Unlearning the Unpromptable: Prompt-free Instance Unlearning in Diffusion Models
+% \\ \hspace*{1.5em}{$\text{K. R. Lee}^{*}$, $\text{K. H. Lee}^{*}$, S. Hong, \textbf{B. H. Lee} , S. Y. Chun}
+% \\ \hspace*{1.5em}Under review, 2025
+
+\textbullet~\,\, \href{https://arxiv.org/pdf/2503.23011}{Geometrical Properties of Text Token Embeddings for Strong Semantic Binding in Text-to-Image Generation}
+\\ \hspace*{1.5em}{$\text{H. Seo}^{*}$, $\text{J. Bang}^{*}$, $\text{H. Lee}^{*}$, J. Lee, \textbf{B. H. Lee} , S. Y. Chun}
+\\ \hspace*{1.5em}Under review, 2025
+
+\end{rSection}
+
+\begin{rSection}{Patents}
+\textbullet~\,\, \textbf{All-in-one image quality improvement model providing method performing image quality \\\hspace*{1.4em}restoration for multiple image quality degradation factors}
+\\ \hspace*{1.5em}{S. Y. Chun, D. Park, \textbf{B. H. Lee}}
+\\ \hspace*{1.5em}U.S. Patent, Filed, 2023
+
+
+\textbullet~\,\, \textbf{Method for providing all-in-one image quality improvement model that performs image quality \\\hspace*{1.4em}restoration for multiple image quality inhibitors}
+\\ \hspace*{1.5em}{S. Y. Chun, D. Park, \textbf{B. H. Lee}}
+\\ \hspace*{1.5em}Korea Patent, Filed, 2023 \\
+\end{rSection}
+
+
+\begin{rSection}{Research Experiences}
+\textbullet~\,\, {\bf National AI Foundation Model Project in South Korea}{, NAVER Cloud} \hfill {\it Oct 2025 - present}
+\\\hspace*{1.5em}{Research Residence} 
+
+\textbullet~\,\, 
+{\bf Biomedical Medical Image Processing Lab}{, UNIST} \hfill {\it May 2020 - Feb 2021}
+\\ \hspace*{1.5em}{Researcher (Advisor: Prof. Se Young Chun)} 
+
+\textbullet~\,\, 
+{\bf Biomedical Medical Image Processing Lab}{, UNIST}  \hfill {\it July 2017 - Aug 2018}
+\\ \hspace*{1.5em}{Student Intership (Advisor: Prof. Se Young Chun)} \\
+\end{rSection}
+
+
+
+
+
+\begin{rSection}{Presentations}
+\textbullet~\,\, \textbf{Continual Learning and Its Applications in Magnetic Resonance Imaging}
+\\ \hspace*{1.5em}Advanced neuroimaging and AI workshop, SNU, 2024 \\
+\end{rSection}
+
+
+\begin{rSection}{Awards or Honors}
+\textbullet~\,\, 
+{\bf 2nd Place in Report Generation in Pathology using Pan-Asia Gigapixel WSIs} (€400) \hfill {\it 2025}
+\\ \hspace*{1.5em}{Challenge by International Conference on MICCAI (Served as the team leader, 26 teams participated)}
+
+\textbullet~\,\, 
+{\bf Yulchon AI Star Scholarships} (₩8,000,000) \hfill {\it 2025}
+\\ \hspace*{1.5em}{Youlchon Foundation \& SNU AI Institute}
+\end{rSection}
+
+
+\begin{rSection}{Extracurricular Experiences}
+\textbullet~\,\, 
+{\bf Military Service, Republic of Korea Army} \hfill {\it Sep 2018 - Apr 2020}
+\\ \hspace*{1.5em}{Discharged as Sergeant}
+
+\textbullet~\,\, 
+{\bf Pinocchio (Robot Club)}{, UNIST} \hfill {\it Mar 2015 - Aug 2018}
+\\ \hspace*{1.5em}{Education Director} 
+\end{rSection}
+
+
+\end{document}

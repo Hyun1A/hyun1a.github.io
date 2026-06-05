@@ -1,0 +1,33 @@
+# Preprints and manuscripts under review.
+# Compact schema: plain `authors` string (use **B. H. Lee** to emphasize), optional links.
+
+- title: "Strong Helps Weak: Directional Cross-Modal Alignment Transfer in Multi-modal LLMs"
+  authors: "**B. H. Lee**, S. Y. Chun"
+  venue: Under review, 2026
+
+- title: "Speculative Encoding for Efficient Gigapixel Whole Slide Image Analysis"
+  authors: "**B. H. Lee**, S. Y. Chun"
+  venue: Under review, 2026
+
+- title: "HYPERION: Joint-Hierarchy Hyperbolic Fine-Tuning for Histopathology Slide Representations"
+  authors: "**B. H. Lee**, S. Y. Chun"
+  venue: Under review, 2026
+
+- title: "RePath: Zero-Shot Tumor Segmentation in Gigapixel WSIs via Differential Intra-Slide Patch Affinity"
+  authors: "**B. H. Lee**, S. Y. Chun"
+  venue: Under review, 2026
+
+- title: "HyperCLOVA X 8B Omni"
+  authors: "HyperCLOVA X Team, NAVER Cloud (incl. **B. H. Lee**)"
+  venue: Technical report, 2026
+  pdf: https://arxiv.org/pdf/2601.01792
+
+- title: "HyperCLOVA X 32B Think"
+  authors: "HyperCLOVA X Team, NAVER Cloud (incl. **B. H. Lee**)"
+  venue: Technical report, 2026
+  pdf: https://www.arxiv.org/pdf/2601.03286
+
+- title: "Geometrical Properties of Text Token Embeddings for Strong Semantic Binding in Text-to-Image Generation"
+  authors: "H. Seo*, J. Bang*, H. Lee*, J. Lee, **B. H. Lee**, S. Y. Chun"
+  venue: arXiv, 2025
+  pdf: https://arxiv.org/pdf/2503.23011
