@@ -99,7 +99,7 @@ layout: null
       <h2 class="title is-3">News</h2>
       <div class="content news-list">
         <ul>
-          {% for news in site.data.news %}
+          {% for news in site.data.news limit:10 %}
           <li>
             <b>{{ news.date }}</b> &nbsp;{{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}
           </li>
