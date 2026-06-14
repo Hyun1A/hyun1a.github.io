@@ -30,12 +30,12 @@
   venue: Workshop on Image Processing and Image Understanding (IPIU), 2024
 
 - title: "Efficient and Accurate Quantized Image Super-Resolution on Mobile NPUs (Mobile AI & AIM 2022 Challenge: Report)"
-  authors: "A. Ignatov et al. (incl. **B. H. Lee**)"
+  authors: "A. Ignatov et al. (including **B. H. Lee**)"
   venue: ECCV Workshops, 2022
   pdf: https://link.springer.com/chapter/10.1007/978-3-031-25066-8_4
 
 - title: "Efficient Single-Image Depth Estimation on Mobile Devices (Mobile AI & AIM 2022 Challenge: Report)"
-  authors: "A. Ignatov et al. (incl. **B. H. Lee**)"
+  authors: "A. Ignatov et al. (including **B. H. Lee**)"
   venue: ECCV Workshops, 2022
 
 - title: "Uncertainty-based Dual-Domain Low-Dose X-ray CT Reconstruction"
