@@ -17,7 +17,7 @@
   pdf: https://ieeexplore.ieee.org/document/10204770
 
 - title: "Towards Accelerating Model Parallelism in Distributed Deep Learning Systems"
-  authors: "H. Choi*, **B. H. Lee***, S. Y. Chun, J. Lee"
+  authors: "H. Choi*, **B. H. Lee**\\*, S. Y. Chun, J. Lee"
   venue: PLOS One, 2023
   pdf: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293338
 
