@@ -30,12 +30,15 @@ description: >-
   I received my B.S. in Electrical Engineering from [UNIST](https://www.unist.ac.kr/).
 
 
-  My research centers on **selective knowledge updates** for deep visual and foundation models &mdash;
-  how to *add* new knowledge or *remove* unwanted knowledge while preserving what a model already knows.
-  I have studied this through continual learning and concept erasure approaches,
-  essential for agentic/physical AI, vertical-AI, and visual generative AI.
+  My research focuses on **selective knowledge updates** for deep visual and foundation models toward agentic/physical AI &mdash;
+  how to *add* new knowledge or *remove* unwanted knowledge while preserving existing capabilities.
+  I have studied this through continual learning and concept erasure, approaches that are equally essential
+  for vertical-AI and visual generative AI.
   I am currently extending these ideas to multimodal LLMs, omnimodal models, and domain-specialized models
-  via post-training with minimal forgetting, aiming at adaptive and reliable knowledge updates that efficiently scale to real-world settings.
+  via post-training with minimal forgetting, toward adaptive and reliable updates that scale efficiently to real-world settings.
+
+
+  Additionally, I am interested in model acceleration, image restoration, and histopathology analysis.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://keunhong.com" # the base hostname & protocol for your site, e.g. http://example.com
