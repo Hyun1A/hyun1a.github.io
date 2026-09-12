@@ -34,8 +34,8 @@ description: >-
   how to *add* new knowledge or *remove* unwanted knowledge while preserving existing capabilities.
   I have studied this through continual learning, unlearning, and reinforcement learning,
   which are essential for agentic/physical AI, vertical-AI, and visual generative AI.
-  I am currently extending these ideas to multimodal LLMs, omnimodal models, vision-language-action models, and domain-specialized models
-  via post-training with minimal forgetting, aiming at adaptive and reliable knowledge updates that efficiently scale to real-world settings.
+  I am currently extending these ideas to multimodal LLMs, omnimodal models, vision-language-action models, and domain-specialized models,
+  aiming at adaptive and reliable knowledge updates that efficiently scale to real-world settings.
   Additionally, I am interested in model acceleration, image restoration, and histopathology analysis.
 
 baseurl: "" # the subpath of your site, e.g. /blog
