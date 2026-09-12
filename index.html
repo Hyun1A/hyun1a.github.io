@@ -241,7 +241,7 @@ layout: null
               {% else %}{{ item.title }}{% endif %}
             </h3>
             {% if item.authors %}<div class="publication-authors">{{ item.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
-            <div class="publication-venue"><span>{{ item.venue }}</span></div>
+            <div class="publication-venue"><span>{{ item.venue | markdownify | remove: '<p>' | remove: '</p>' }}</span></div>
             {% if item.project_page or item.pdf or item.github %}
             <div class="publication-links buttons field has-addons">
               {% if item.project_page %}
