@@ -38,6 +38,15 @@ description: >-
   aiming at adaptive and reliable knowledge updates that efficiently scale to real-world settings.
   Additionally, I am interested in model acceleration, image restoration, and histopathology analysis.
 
+# Not published to the site. Jekyll's default exclude list is replaced when this
+# key is set, so Gemfile/Gemfile.lock are repeated here.
+# The CV LaTeX sources are not listed: they live in ../CV_pdf, outside the repo.
+exclude:
+  - render/        # build_cv.sh and its notes
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://keunhong.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: KeunhongP

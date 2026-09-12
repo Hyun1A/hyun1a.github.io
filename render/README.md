@@ -1,15 +1,32 @@
 # CV rendering
 
-`build_cv.sh` compiles the LaTeX CV and writes the published PDF that the
-homepage and CV link to:
+`build_cv.sh` compiles the LaTeX CV in place and copies the result to the
+published PDF that the homepage and CV link to:
 
 ```
-CV/resume_cisgrad.tex   ──build_cv.sh──▶   files/CV_bh_lee.pdf
+../CV_pdf/resume_cisgrad.tex  ──build_cv.sh──▶  ../CV_pdf/resume_cisgrad.pdf  ──copy──▶  files/CV_bh_lee.pdf
 ```
 
-Run it **after editing `CV/resume_cisgrad.tex` and before pushing**, so the
-PDF served at `https://hyun1a.github.io/files/CV_bh_lee.pdf` always matches the
-source.
+Run it **after editing `../CV_pdf/resume_cisgrad.tex` and before pushing**, so
+the PDF served at `https://hyun1a.github.io/files/CV_bh_lee.pdf` always matches
+the source.
+
+## Where the sources live
+
+The LaTeX sources (`resume_cisgrad.tex`, `resume.cls`, older `*_save*.tex`) sit
+in `CV_pdf/` **next to this repository, not inside it** — by default
+`<repo parent>/CV_pdf`, i.e. `/data3/hyun/career/CV/CV_pdf`. Keeping them out of
+the repo means Jekyll can never publish the `.tex` files, and the only CV the
+site serves is `files/CV_bh_lee.pdf`.
+
+The compiled PDF is left in `CV_pdf/` next to its source and copied into
+`files/CV_bh_lee.pdf`, which is the file to commit.
+
+Point the script elsewhere with `CV_DIR`:
+
+```bash
+CV_DIR=/path/to/CV_pdf ./render/build_cv.sh
+```
 
 ## Usage
 
@@ -22,10 +39,13 @@ From the repository root:
 Then review `files/CV_bh_lee.pdf` and commit:
 
 ```bash
-git add files/CV_bh_lee.pdf CV/resume_cisgrad.tex
+git add files/CV_bh_lee.pdf
 git commit -m "Update CV"
 git push
 ```
+
+Only the PDF is committed here; the `.tex` sources are versioned wherever
+`CV_pdf/` lives.
 
 ## How it works
 
@@ -37,7 +57,9 @@ Docker image:
 
 - runs `xelatex` twice (for hyperref bookmarks),
 - runs as the current host user (`--user`) so outputs are **not** root-owned,
-- moves the result to `files/CV_bh_lee.pdf` and cleans up `.aux/.log/.out`.
+- mounts `$CV_DIR` (not the repo) into the container,
+- leaves `resume_cisgrad.pdf` in `CV_pdf/`, copies it to `files/CV_bh_lee.pdf`,
+  and cleans up `.aux/.log/.out`.
 
 ## Requirements
 
@@ -54,6 +76,6 @@ If you already have a local TeX Live with Korean support, you can skip Docker
 and compile manually:
 
 ```bash
-cd CV && xelatex resume_cisgrad.tex && xelatex resume_cisgrad.tex
-mv resume_cisgrad.pdf ../files/CV_bh_lee.pdf
+cd ../CV_pdf && xelatex resume_cisgrad.tex && xelatex resume_cisgrad.tex
+cp resume_cisgrad.pdf ../hyun1a.github.io/files/CV_bh_lee.pdf
 ```
