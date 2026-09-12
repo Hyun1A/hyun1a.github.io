@@ -36,8 +36,6 @@ description: >-
   which are essential for agentic/physical AI, vertical-AI, and visual generative AI.
   I am currently extending these ideas to multimodal LLMs, omnimodal models, vision-language-action models, and domain-specialized models
   via post-training with minimal forgetting, aiming at adaptive and reliable knowledge updates that efficiently scale to real-world settings.
-
-
   Additionally, I am interested in model acceleration, image restoration, and histopathology analysis.
 
 baseurl: "" # the subpath of your site, e.g. /blog
