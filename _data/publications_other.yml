@@ -2,7 +2,7 @@
 # Compact schema: plain `authors` string (use **B. H. Lee** to emphasize), optional links.
 
 - title: "Unlearning the Unpromptable: Prompt-free Instance Unlearning in Diffusion Models"
-  authors: "K. R. Lee*, K. H. Lee*, S. Hong, **B. H. Lee**, S. Y. Chun"
+  authors: "K. R. Lee\\*, K. H. Lee\\*, S. Hong, **B. H. Lee**, S. Y. Chun"
   venue: CVPR Workshop on Machine Unlearning for Computer Vision, 2026
   pdf: https://arxiv.org/abs/2603.10445
 

@@ -1,16 +1,24 @@
 # Preprints and manuscripts under review.
 # Compact schema: plain `authors` string (use **B. H. Lee** to emphasize), optional links.
 
-- title: "Strong Helps Weak: Directional Cross-Modal Alignment Transfer in Multi-modal LLMs"
-  venue: Under review, 2026 (**First-authored**)
+- title: "Hyperbolic Vision-Language Model for Pathological Patch-Slide Representation"
+  authors: "**B. H. Lee**\\*, J. H. Jang\\*, Y. Kim, H. Kim, S. Y. Jeon, J. Cho, J. Lee, H. Seo, H. Bae, S. Y. Chun"
+  venue: Under review, 2026
+
+- title: "Multi-student On-Policy Self-Distillation with Alternating Reinforcement Learning for Robust Vision-Language-Action Models"
+  authors: "H. Kim\\*, **B. H. Lee**\\*, J. Cho, J. Park, Y. Seo, Y. Hwang, D. Shin, S. Y. Chun"
+  venue: Under review, 2026
+
+- title: "S<sup>3</sup>-OPSD: Sparse, Stable and Speedy On-Policy Self-Distillation"
+  authors: "H. Seo\\*, **B. H. Lee**\\*, M. Oh, S. Y. Chun"
+  venue: Under review, 2026
+
+- title: "RePath: Zero-Shot Whole-Slide Tumor Segmentation via Intra-Slide Relational Affinity"
+  authors: "D. U. Kang\\*, S. Lim\\*, J. Cho, **B. H. Lee**, K. Lee, S. Y. Chun"
+  venue: Under review, 2026
 
 - title: "Speculative Encoding for Efficient Gigapixel Whole Slide Image Analysis"
-  venue: Under review, 2026 (**First-authored**)
-
-- title: "HYPERION: Joint-Hierarchy Hyperbolic Fine-Tuning for Histopathology Slide Representations"
-  venue: Under review, 2026 (**First-authored**)
-
-- title: "RePath: Zero-Shot Tumor Segmentation in Gigapixel WSIs via Differential Intra-Slide Patch Affinity"
+  authors: "H. Seo\\*, H. Bae\\*, **B. H. Lee**\\*, J. Cho, J. Lee, J. H. Jang, H. Kim, S. Y. Jeon, Y. Kim, S. Y. Chun"
   venue: Under review, 2026
 
 - title: "HyperCLOVA X 8B Omni"
@@ -24,6 +32,6 @@
   pdf: https://www.arxiv.org/pdf/2601.03286
 
 - title: "Geometrical Properties of Text Token Embeddings for Strong Semantic Binding in Text-to-Image Generation"
-  authors: "H. Seo*, J. Bang*, H. Lee*, J. Lee, **B. H. Lee**, S. Y. Chun"
+  authors: "H. Seo\\*, J. Bang\\*, H. Lee\\*, J. Lee, **B. H. Lee**, S. Y. Chun"
   venue: arXiv, 2025
   pdf: https://arxiv.org/pdf/2503.23011

@@ -128,7 +128,11 @@ layout: null
 
         <div class="column">
           <div class="content">
-            <h3 class="publication-title"><a href="{{ publication.project_page }}">{{ publication.title }}</a></h3>
+            <h3 class="publication-title">
+              {% if publication.project_page %}<a href="{{ publication.project_page }}">{{ publication.title }}</a>
+              {% elsif publication.pdf %}<a href="{{ publication.pdf }}">{{ publication.title }}</a>
+              {% else %}{{ publication.title }}{% endif %}
+            </h3>
             <div class="publication-authors">
 
               {% for author_id in publication.authors %}
@@ -163,6 +167,7 @@ layout: null
             </div>
             <p class="publication-description">{{ publication.description }}</p>
             <!-- Publication Links. -->
+            {% if publication.project_page or publication.pdf or publication.github %}
             <div class="publication-links buttons field has-addons">
               {% if publication.project_page %}
               <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
@@ -170,10 +175,12 @@ layout: null
                 <span>Project Page</span>
               </a>
               {% endif %}
+              {% if publication.pdf %}
               <a class="external-link button is-small is-ghost" href="{{ publication.pdf }}">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>PDF</span>
               </a>
+              {% endif %}
               {% if publication.github %}
               <a class="external-link button is-small is-ghost" href="{{ publication.github }}">
                 <span class="icon"><i class="fa fab fa-github"></i></span>
@@ -181,6 +188,7 @@ layout: null
               </a>
               {% endif %}
             </div>
+            {% endif %}
             <!--/ Publication Links. -->
           </div>
         </div>
@@ -296,7 +304,7 @@ layout: null
               Website template from <a href="https://keunhong.com/">Keunhong Park</a>.
             </p>
             <p>
-              Last updated Jun 2026.
+              Last updated Sep 2026.
             </p>
           </div>
         </div>

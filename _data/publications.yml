@@ -1,3 +1,18 @@
+- id: dcat
+  title: "Strong Helps Weak: Directional Cross-Modal Alignment Transfer in Multi-modal LLMs"
+  venue: NeurIPS, 2026
+  awards:
+    - Spotlight
+  image: dcat_thumbnail.png
+  description: "Transfers textual alignment from a strong, well-aligned donor modality to a weak target modality in multimodal LLMs via a closed-form weight-space update, without further fine-tuning."
+  authors:
+    - hgseo*
+    - bhlee*
+    - mjkim*
+    - dhmah
+    - jholee
+    - sychun
+
 - id: etc
   title: "Erasing Thousands of Concepts: Towards Scalable and Practical Concept Erasure for Text-to-Image Diffusion Models"
   venue: CVPR, 2026
