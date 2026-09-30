@@ -30,13 +30,11 @@ description: >-
   I received my B.S. in Electrical Engineering from [UNIST](https://www.unist.ac.kr/).
 
 
-  My research focuses on **selective knowledge updates** for deep visual and foundation models toward agentic/physical AI &mdash;
-  how to *add* new knowledge or *remove* unwanted knowledge while preserving existing capabilities.
-  I have studied this through continual learning, unlearning, and reinforcement learning,
-  which are essential for agentic/physical AI, vertical-AI, and visual generative AI.
-  I am currently extending these ideas to multimodal LLMs, omnimodal models, vision-language-action models, and domain-specialized models,
-  aiming at adaptive and reliable knowledge updates that efficiently scale to real-world settings.
-  Additionally, I am interested in model acceleration, image restoration, and histopathology analysis.
+  My research focuses on **selective and efficient post-training of foundation models**,
+  enabling models to acquire new capabilities, remove unwanted knowledge, and adapt their behaviors while preserving existing performance.
+  My work spans **continual learning, machine unlearning, and reinforcement learning**,
+  with experience across visual, generative, and multimodal foundation models.
+  Recently, I am interested in **multimodal LLMs, agentic AI, and vision-language-action models** for real-world applications.
 
 # Not published to the site. Jekyll's default exclude list is replaced when this
 # key is set, so Gemfile/Gemfile.lock are repeated here.
