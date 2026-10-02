@@ -34,7 +34,8 @@ description: >-
   enabling models to acquire new capabilities, remove unwanted knowledge, and adapt their behaviors while preserving existing performance.
   My work spans **continual learning, machine unlearning, and reinforcement learning**,
   with experience across visual, generative, and multimodal foundation models.
-  Recently, I am interested in **multimodal LLMs, agentic AI, and vision-language-action models** for real-world applications.
+  Recently, I am interested in **multimodal LLMs, agentic AI, and vision-language-action models**,
+  and in extending them to **domain-specialized AI**.
 
 # Not published to the site. Jekyll's default exclude list is replaced when this
 # key is set, so Gemfile/Gemfile.lock are repeated here.
