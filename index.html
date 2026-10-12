@@ -277,6 +277,18 @@ layout: null
       </div>
       {% endfor %}
 
+      <!-- Academic Services. -->
+      <h2 class="title is-3">Academic Services</h2>
+      <div class="content news-list">
+        <ul>
+          {% for service in site.data.services %}
+          <li>
+            <b>{{ service.role }}</b>: {{ service.venues }}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
     </div>
   </section>
 
