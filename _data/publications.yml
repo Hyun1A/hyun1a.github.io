@@ -3,6 +3,9 @@
   venue: NeurIPS, 2026
   awards:
     - Spotlight
+  project_page: https://seohoiki3215.github.io/DCAT_project_page/
+  pdf: https://arxiv.org/abs/2610.04580
+  github: https://github.com/Hyun1A/DCAT
   image: dcat_thumbnail.png
   description: "Transfers textual alignment from a strong, well-aligned donor modality to a weak target modality in multimodal LLMs via a closed-form weight-space update, without further fine-tuning."
   authors:
